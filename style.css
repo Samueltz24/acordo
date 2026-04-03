@@ -1,0 +1,125 @@
+:root{
+    --cor1: #00EBD6;
+    --cor2: #006AEB;
+    --cor3: #00B5EB; 
+    --cor4: #00EB86;
+    --cor5: #0020EB;
+    --cor6: #4EC6EB;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    background: var(--cor2);
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+h2{
+    margin-top: 10px;
+    border-bottom: 1px solid var(--cor3);
+    width: 340px;
+    margin-left: 20px;
+}
+.separa{
+    border: 1px solid ;
+    margin: 10px 5%;
+    background: blue;
+    padding: 10px 4%;
+}
+#principal{
+    background: var(--cor1);
+    margin: 2%;
+    padding: 15px 0;
+    border-radius: 5px;
+    display: none;
+}
+.pont{
+    cursor: pointer;
+    border: 1px solid #000;
+    padding: 10px 2px;
+    border-radius: 5px 5px;
+    text-align: center;
+}
+#propor{
+    margin: 0 5%;
+    padding: 10px 0;
+    border-radius: 5px 5px;
+}
+#kita{
+    background: var(--cor4);
+    border-radius: 5px 5px;
+    margin: 10px 5%;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #000;
+    display: none;
+}
+.margi{
+    margin: 10px 5%;
+    display: flex;
+}
+#aparecerr{
+    display: none;
+}
+.sepa{
+    flex: 40%;
+    margin-top: 10px;
+}
+.opa{
+    display: flex;
+    flex-wrap: wrap;
+}
+.buton{
+    width: 75px;
+    padding: 10px 0;
+    border-radius: 5px 5px;
+    cursor: pointer;
+    border: 1px solid #000;
+    margin-left: 50px;
+}
+.azul{
+    color: #fff;
+    background: var(--cor5);
+}
+.amarelo{
+    color: #fff;
+    background: var(--cor5);
+}
+#res{
+    margin: 5%;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 2px;
+}
+#mar{
+    margin: 10px 5%;
+    display: none;
+}
+#proposta{
+    margin: 10px 5%;
+}
+#aparecer{
+    display: flex;
+    flex-wrap: wrap;
+    /*border: 1px solid #000;*/
+}
+.oi{
+    flex: 20%;
+    background: var(--cor4);
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 5px;
+}
+.butoo{
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: 1px solid blue;
+    text-align: center;
+    cursor: pointer;
+}
