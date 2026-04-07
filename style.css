@@ -18,6 +18,13 @@ nav{
     padding: 20px 0;
     text-align: center;
     color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+main{
+    margin-top: 100px;
+    margin-bottom: 60px;
 }
 h2{
     margin-top: 10px;
@@ -142,4 +149,25 @@ h2{
     width: 40%;
     margin-top: 10px;
     margin-left: 10px;
+}
+#footer{
+    background: var(--cor3);
+    flex-wrap: wrap;
+    display: flex;
+    border-top: 2px solid var(--cor5);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+.final{
+    flex: 60%;
+    margin-left: 3px;
+}
+.final01{
+    flex: 10%;
+}
+.final p{
+    font-size: 22px;
 }
