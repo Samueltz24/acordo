@@ -40,9 +40,9 @@ main{
 h2{
     margin-top: 10px;
     border-bottom: 1px solid var(--cor3);
-    width: 350px;
+    width: 300px;
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 17px;
     font-family: var(--font2);
 }
 .separa{
