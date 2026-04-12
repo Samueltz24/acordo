@@ -42,7 +42,7 @@ h2{
     border-bottom: 1px solid var(--cor3);
     width: 350px;
     margin-left: 20px;
-    font-size: 22px;
+    font-size: 18px;
     font-family: var(--font2);
 }
 .separa{
@@ -174,7 +174,7 @@ h2{
     padding: 10px 0;
 }
 .final{
-    flex: 80%;
+    flex: 70%;
     margin-left: 10px;
     /*border: 1px solid;*/
 }
@@ -183,7 +183,7 @@ h2{
     /*border: 1px solid;*/
 }
 .final p{
-    font-size: 23px;
+    font-size: 18px;
     font-family: var(--font1);
     color: var(--cor5);
 }
