@@ -9,10 +9,11 @@ function Divida(){
     let propor = document.getElementById("propor")
     let aparecerr = document.getElementById("aparecerr")
     let principal = document.getElementById("principal")
+    let imgreno = document.getElementById("imgreno")
     let teste = nome.toUpperCase()
     principal.style.display="block"
     aparecerr.style.display="block"
-
+    imgreno.style.display="none"
     if(nome){
         kita.innerHTML=`ola ${teste} voce esta com pedencia que ver uma proposta para paga a divida?`
         kita.style.display="block"
@@ -67,6 +68,11 @@ function Entrada(){
                 let valor = (restante / i) + (restante * 0.04);
                 valores.push(valor)
                proposta.innerHTML+=`${i}x : ${numero} : ${valor.toFixed(2)}<br>`
+            }
+            if (numero >= 200000){
+                let sobra = numero - 200000
+                proposta.innerHTML=`voce digito ${numero} sua divida é de 200000 parabens voce quito sua divida e sobro ${sobra}$`
+                escolher.style.display="none"
             }
         }
         else{

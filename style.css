@@ -1,3 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Oi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Faster+One&family=Oi&display=swap');
+:root{
+    --font1: "Black Ops One", system-ui;
+    --font2: "Faster One", system-ui;
+}
 :root{
     --cor1: #00EBD6;
     --cor2: #006AEB;
@@ -22,6 +29,10 @@ nav{
     width: 100%;
     top: 0;
 }
+nav h1{
+    font-family: var(--font1);
+    font-size: 25px;
+}
 main{
     margin-top: 100px;
     margin-bottom: 60px;
@@ -29,9 +40,10 @@ main{
 h2{
     margin-top: 10px;
     border-bottom: 1px solid var(--cor3);
-    width: 340px;
+    width: 450px;
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: var(--font2);
 }
 .separa{
     border: 1px solid ;
@@ -162,17 +174,33 @@ h2{
     padding: 10px 0;
 }
 .final{
-    flex: 60%;
-    margin-left: 3px;
+    flex: 80%;
+    margin-left: 10px;
+    /*border: 1px solid;*/
 }
 .final01{
     flex: 10%;
+    /*border: 1px solid;*/
 }
 .final p{
-    font-size: 22px;
+    font-size: 23px;
+    font-family: var(--font1);
+    color: var(--cor5);
 }
 main{
     margin-bottom: 80px;
+}
+#imgreno{
+    margin: 10px 3%;
+}
+.sem{
+    width: 99%;
+}
+.quadrado{
+    background: var(--cor5);
+    padding: 10px 2%;
+    border-radius: 5px 5px;
+    border: 1px solid #000;
 }
 @media (min-width: 768px) { 
     h2{
@@ -181,6 +209,9 @@ main{
     }
     .final{
         margin-left: 20px;
+    }
+    .sem{
+        height: 355px;
     }
 }
 @media (min-width: 1024px){ 
@@ -202,4 +233,8 @@ main{
         margin-left: 100px;
         font-size: 25px;
     }
+    .sem{
+        height: 355px;
+    }
+
 }
