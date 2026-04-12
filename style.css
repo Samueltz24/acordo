@@ -31,7 +31,7 @@ nav{
 }
 nav h1{
     font-family: var(--font1);
-    font-size: 25px;
+    font-size: 20px;
 }
 main{
     margin-top: 100px;
@@ -40,9 +40,9 @@ main{
 h2{
     margin-top: 10px;
     border-bottom: 1px solid var(--cor3);
-    width: 450px;
+    width: 350px;
     margin-left: 20px;
-    font-size: 25px;
+    font-size: 22px;
     font-family: var(--font2);
 }
 .separa{
